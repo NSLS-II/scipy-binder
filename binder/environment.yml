@@ -1,0 +1,40 @@
+channels:
+  - defaults
+  - nsls2forge
+dependencies:
+  - area-detector-handlers
+  - python=3.7
+  - bokeh=1.4.0
+  - databroker
+  - dask=2.9.1
+  - dask-image=0.2.0
+  - dask-ml=1.2.0
+  # TODO: Bump dask-labextension to >=2 once extensions have been made compatibility updates
+  - dask-labextension=1.1.0
+  # TODO: Bump jupyterlab to 2.x once extensions have been made compatibility updates
+  - ipympl
+  - jupyterlab=1.*
+  - nodejs
+  - notebook<5.7.5
+  - tornado=5
+  - numba
+  - numpy=1.17
+  - nslsii
+  - pip
+  - pandas=0.25.3
+  - pyarrow==0.15.1
+  - python-graphviz
+  - seaborn
+  - scikit-learn=0.22
+  - matplotlib
+  - nbgitpuller
+  - nbserverproxy
+  - nomkl
+  - h5py
+  - xarray
+  - bottleneck
+  - requests
+  - py-xgboost
+  - dask-xgboost
+  - pip:
+    - mimesis

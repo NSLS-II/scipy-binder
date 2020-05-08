@@ -1,0 +1,134 @@
+sources:
+  amx:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://amx:{env(NSLS2_CATALOGS_PASSWORD_AMX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/amx-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://amx:{env(NSLS2_CATALOGS_PASSWORD_AMX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/amx-bluesky-documents?authSource=admin"
+  bmm:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://bmm:{env(NSLS2_CATALOGS_PASSWORD_BMM)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/bmm-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://bmm:{env(NSLS2_CATALOGS_PASSWORD_BMM)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/bmm-bluesky-documents?authSource=admin"
+  chx:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://chx:{env(NSLS2_CATALOGS_PASSWORD_CHX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/chx-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://chx:{env(NSLS2_CATALOGS_PASSWORD_CHX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/chx-bluesky-documents?authSource=admin"
+  cms:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://cms:{env(NSLS2_CATALOGS_PASSWORD_CMS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/cms-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://cms:{env(NSLS2_CATALOGS_PASSWORD_CMS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/cms-bluesky-documents?authSource=admin"
+  csx:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://csx:{env(NSLS2_CATALOGS_PASSWORD_CSX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/csx-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://csx:{env(NSLS2_CATALOGS_PASSWORD_CSX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/csx-bluesky-documents?authSource=admin"
+      root_map:
+        "/GPFS/xf23id/xf23id1": "/nsls2/csx/data"
+  esm:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://esm:{env(NSLS2_CATALOGS_PASSWORD_ESM)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/esm-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://esm:{env(NSLS2_CATALOGS_PASSWORD_ESM)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/esm-bluesky-documents?authSource=admin"
+  fmx:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://fmx:{env(NSLS2_CATALOGS_PASSWORD_FMX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/fmx-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://fmx:{env(NSLS2_CATALOGS_PASSWORD_FMX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/fmx-bluesky-documents?authSource=admin"
+  fxi:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://fxi:{env(NSLS2_CATALOGS_PASSWORD_FXI)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/fxi-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://fxi:{env(NSLS2_CATALOGS_PASSWORD_FXI)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/fxi-bluesky-documents?authSource=admin"
+  hxn:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://hxn:{env(NSLS2_CATALOGS_PASSWORD_HXN)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/hxn-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://hxn:{env(NSLS2_CATALOGS_PASSWORD_HXN)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/hxn-bluesky-documents?authSource=admin"
+  ios:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://ios:{env(NSLS2_CATALOGS_PASSWORD_IOS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/ios-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://ios:{env(NSLS2_CATALOGS_PASSWORD_IOS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/ios-bluesky-documents?authSource=admin"
+  isr:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://isr:{env(NSLS2_CATALOGS_PASSWORD_ISR)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/isr-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://isr:{env(NSLS2_CATALOGS_PASSWORD_ISR)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/isr-bluesky-documents?authSource=admin"
+  iss:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://iss:{env(NSLS2_CATALOGS_PASSWORD_ISS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/iss-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://iss:{env(NSLS2_CATALOGS_PASSWORD_ISS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/iss-bluesky-documents?authSource=admin"
+  ixs:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://ixs:{env(NSLS2_CATALOGS_PASSWORD_IXS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/ixs-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://ixs:{env(NSLS2_CATALOGS_PASSWORD_IXS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/ixs-bluesky-documents?authSource=admin"
+  jpls:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://jpls:{env(NSLS2_CATALOGS_PASSWORD_JPLS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/jpls-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://jpls:{env(NSLS2_CATALOGS_PASSWORD_JPLS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/jpls-bluesky-documents?authSource=admin"
+  lix:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://lix:{env(NSLS2_CATALOGS_PASSWORD_LIX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/lix-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://lix:{env(NSLS2_CATALOGS_PASSWORD_LIX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/lix-bluesky-documents?authSource=admin"
+  pdf:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://pdf:{env(NSLS2_CATALOGS_PASSWORD_PDF)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/pdf-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://pdf:{env(NSLS2_CATALOGS_PASSWORD_PDF)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/pdf-bluesky-documents?authSource=admin"
+  qas:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://qas:{env(NSLS2_CATALOGS_PASSWORD_QAS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/qas-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://qas:{env(NSLS2_CATALOGS_PASSWORD_QAS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/qas-bluesky-documents?authSource=admin"
+  rsoxs:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://rsoxs:{env(NSLS2_CATALOGS_PASSWORD_RSOXS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/rsoxs-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://rsoxs:{env(NSLS2_CATALOGS_PASSWORD_RSOXS)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/rsoxs-bluesky-documents?authSource=admin"
+      transforms: "nslsii.transforms.rsoxs_fix_shape"
+  six:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://six:{env(NSLS2_CATALOGS_PASSWORD_SIX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/six-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://six:{env(NSLS2_CATALOGS_PASSWORD_SIX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/six-bluesky-documents?authSource=admin"
+  smi:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://smi:{env(NSLS2_CATALOGS_PASSWORD_SMI)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/smi-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://smi:{env(NSLS2_CATALOGS_PASSWORD_SMI)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/smi-bluesky-documents?authSource=admin"
+  srx:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://srx:{env(NSLS2_CATALOGS_PASSWORD_SRX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/srx-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://srx:{env(NSLS2_CATALOGS_PASSWORD_SRX)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/srx-bluesky-documents?authSource=admin"
+  tes:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://tes:{env(NSLS2_CATALOGS_PASSWORD_TES)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/tes-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://tes:{env(NSLS2_CATALOGS_PASSWORD_TES)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/tes-bluesky-documents?authSource=admin"
+  xfm:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://xfm:{env(NSLS2_CATALOGS_PASSWORD_XFM)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/xfm-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://xfm:{env(NSLS2_CATALOGS_PASSWORD_XFM)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/xfm-bluesky-documents?authSource=admin"
+  xfp:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://xfp:{env(NSLS2_CATALOGS_PASSWORD_XFP)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/xfp-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://xfp:{env(NSLS2_CATALOGS_PASSWORD_XFP)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/xfp-bluesky-documents?authSource=admin"
+  xpd:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://xpd:{env(NSLS2_CATALOGS_PASSWORD_XPD)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/xpd-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://xpd:{env(NSLS2_CATALOGS_PASSWORD_XPD)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/xpd-bluesky-documents?authSource=admin"
+  xpdd:
+    driver: bluesky-mongo-normalized-catalog
+    args:
+      metadatasteore_db: "mongodb://xpdd:{env(NSLS2_CATALOGS_PASSWORD_XPDD)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/xpdd-bluesky-documents?authSource=admin"
+      asset_registry_db: "mongodb://xpdd:{env(NSLS2_CATALOGS_PASSWORD_XPDD)}@10.0.0.6:27212,10.0.10.7:27213,10.0.10.8:27214/xpdd-bluesky-documents?authSource=admin"

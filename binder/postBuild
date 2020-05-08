@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# TODO: Unpin dask-labextension version once extensions have been made compatibility updates
+jupyter labextension install dask-labextension@1.1.0
+
+# Install extension that supports '%matplotlib widget'.
+jupyter labextension install @jupyter-widgets/jupyterlab-manager
+jupyter labextension install jupyter-matplotlib
+
+# Disable the default share-file extension and register our custom one.
+jupyter labextension disable @jupyterlab/filebrowser-extension:share-file
+jupyter labextension install jupyterhub-share-link-labextension
+
+mkdir -p /srv/conda/envs/notebook/share/intake/catalog.yml
+cp catalog.yml /srv/conda/envs/notebook/share/intake/catalog.yml

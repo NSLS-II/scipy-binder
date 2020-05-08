@@ -12,4 +12,4 @@ jupyter labextension disable @jupyterlab/filebrowser-extension:share-file
 jupyter labextension install jupyterhub-share-link-labextension
 
 mkdir -p /srv/conda/envs/notebook/share/intake/catalog.yml
-cp catalog.yml /srv/conda/envs/notebook/share/intake/catalog.yml
+cp binder/catalog.yml /srv/conda/envs/notebook/share/intake/catalog.yml

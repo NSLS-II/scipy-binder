@@ -2,72 +2,72 @@ channels:
   - defaults
   - nsls2forge
 dependencies:
-  - python=3.7
+  - amostra
+  - area-detector-handlers
   - bokeh=1.4.0
-  - dask=2.9.1
+  - boto3
+  - bottleneck
+  - chxtools
+  - csxtools>=0.1.14
   - dask-image=0.2.0
-  - dask-ml=1.2.0
   # TODO: Bump dask-labextension to >=2 once extensions have been made compatibility updates
   - dask-labextension=1.1.0
-  # TODO: Bump jupyterlab to 2.x once extensions have been made compatibility updates
+  - dask-ml=1.2.0
+  - dask-xgboost
+  - dask=2.9.1
+  - databroker
+  - eiger-io
+  - fabio
+  - graphviz
+  - h5py
+  - hxntools
   - ipympl
+  # TODO: Bump jupyterlab to 2.x once extensions have been made compatibility updates
   - jupyterlab=1.*
-  - nodejs
-  - notebook<5.7.5
-  - tornado=5
-  - numba
-  - numpy=1.17
-  - pandas=0.25.3
-  - pyarrow==0.15.1
-  - python-graphviz
-  - seaborn
-  - scikit-learn=0.22
+  - line_profiler
+  - lmfit>=0.9.9
   - matplotlib
+  - memory_profiler
+  - mendeleev
+  - modestimage
   - nbgitpuller
   - nbserverproxy
-  - nomkl
-  - h5py
-  - xarray
-  - bottleneck
-  - requests
-  - py-xgboost
-  - dask-xgboost
-  - area-detector-handlers
-  - databroker
-  - amostra
-  - chxtools
-  - py4xs
-  - modestimage
-  - pystackreg
-  - eiger-io
-  - sixtools>=0.0.2
-  - csxtools>=0.1.14
-  - xraylarch>=0.9.45
-  - hxntools
-  - scikit-learn
-  - pyxrf>=0.0.9
-  - mendeleev
   - netcdf4
-  - numexpr
-  - periodictable
-  - boto3
-  - graphviz
-  - line_profiler
-  - memory_profiler
-  - papermill
-  - pyfai
-  - sasview
-  - fabio
-  - lmfit>=0.9.9
-  - pypdf2
-  - reportlab
-  - scikit-learn
-  - tomopy
-  # xpdan
+  - nodejs
+  - nomkl
+  - notebook<5.7.5
   - nslsii
+  - numba
+  - numexpr
+  - numpy=1.17
+  - pandas=0.25.3
+  - papermill
+  - periodictable
   - pip
+  - py-xgboost
+  - py4xs
+  - pyarrow==0.15.1
+  - pyfai
+  - pypdf2
+  - pystackreg
+  - python-graphviz
+  - python=3.7
+  - pyxrf>=0.0.9
+  - reportlab
+  - requests
+  - sasview
+  - scikit-learn
+  - scikit-learn
+  - scikit-learn=0.22
+  - seaborn
+  - sixtools>=0.0.2
+  - tomopy
+  - tornado=5
+  - xarray
+  # xpdan
+  - xraylarch>=0.9.45
   - pip:
-    - mimesis
   # - edrixs
-    - pyzbar
     - https://github.com/NSLS-II/nsls2-catalogs/archive/v0.0.1.tar.gz
+    - mimesis
+    - pyzbar

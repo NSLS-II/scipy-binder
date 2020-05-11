@@ -61,10 +61,10 @@ dependencies:
   - lmfit>=0.9.9
   - pypdf2
   - reportlab
- # - scikit-learn
- # - tomopy
+  - scikit-learn
+  - tomopy
  # - xpdan
- # - nslsii
+  - nslsii
   - pip
   - pip:
     - mimesis

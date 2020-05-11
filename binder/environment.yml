@@ -63,7 +63,7 @@ dependencies:
   - reportlab
   - scikit-learn
   - tomopy
-  - xpdan
+  # xpdan
   - nslsii
   - pip
   - pip:

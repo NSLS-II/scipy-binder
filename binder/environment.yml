@@ -36,31 +36,31 @@ dependencies:
   - databroker
   - amostra
   - chxtools
- # - py4xs
- # - modestimage
- # - pystackreg
- # - eiger-io
- # - sixtools>=0.0.2
- # - csxtools>=0.1.14
- # - xraylarch>=0.9.45
- # - hxntools
- # - scikit-learn
- # - pyxrf>=0.0.9
- # - mendeleev
- # - netcdf4
- # - numexpr
- # - periodictable
- # - boto3
- # - graphviz
- # - line_profiler
- # - memory_profiler
- # - papermill
- # - pyfai
- # - sasview
- # - fabio
- # - lmfit>=0.9.9
- # - pypdf2
- # - reportlab
+  - py4xs
+  - modestimage
+  - pystackreg
+  - eiger-io
+  - sixtools>=0.0.2
+  - csxtools>=0.1.14
+  - xraylarch>=0.9.45
+  - hxntools
+  - scikit-learn
+  - pyxrf>=0.0.9
+  - mendeleev
+  - netcdf4
+  - numexpr
+  - periodictable
+  - boto3
+  - graphviz
+  - line_profiler
+  - memory_profiler
+  - papermill
+  - pyfai
+  - sasview
+  - fabio
+  - lmfit>=0.9.9
+  - pypdf2
+  - reportlab
  # - scikit-learn
  # - tomopy
  # - xpdan

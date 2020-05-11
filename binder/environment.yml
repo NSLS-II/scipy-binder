@@ -1,5 +1,5 @@
 channels:
-  - conda-forge
+  - defaults
   - nsls2forge
 dependencies:
   - python=3.7
@@ -64,6 +64,7 @@ dependencies:
  # - scikit-learn
  # - tomopy
  # - xpdan
+ # - nslsii
   - pip
   - pip:
     - mimesis

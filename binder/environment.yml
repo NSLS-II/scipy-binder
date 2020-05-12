@@ -67,7 +67,7 @@ dependencies:
   # xpdan
   - xraylarch>=0.9.45
   - pip:
-  # - edrixs
-    - https://github.com/NSLS-II/nsls2-catalogs/archive/v0.0.1.tar.gz
+    # - edrixs
+    #  - https://github.com/NSLS-II/nsls2-catalogs/archive/v0.0.1.tar.gz
     - mimesis
     - pyzbar

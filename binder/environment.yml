@@ -1,5 +1,5 @@
 channels:
-  - defaults
+  - conda-forge
   - nsls2forge
 dependencies:
   - amostra
@@ -63,6 +63,7 @@ dependencies:
   - sixtools>=0.0.2
   - tomopy
   - tornado=5
+  - voila
   - xarray
   # xpdan
   - xraylarch>=0.9.45

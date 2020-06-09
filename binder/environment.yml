@@ -1,6 +1,6 @@
 channels:
-  - defaults
   - nsls2forge
+  - defaults
 dependencies:
   - amostra
   - area-detector-handlers

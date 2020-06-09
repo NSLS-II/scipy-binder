@@ -36,6 +36,7 @@ before_install:
 
 install:
   - export GIT_FULL_HASH=`git rev-parse HEAD`
+  - bash .keep_alive.sh &  # Generate output periodically.
   - pip install jupyter-repo2docker
   - pip list
 

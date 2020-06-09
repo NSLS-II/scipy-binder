@@ -14,4 +14,4 @@ install:
   - pip list
 
 script:
-  - repo2docker . --no-run
+  - repo2docker --no-run .

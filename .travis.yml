@@ -35,8 +35,9 @@ before_install:
     export CONDARC=ci/condarc
 
 install:
+  - export GIT_FULL_HASH=`git rev-parse HEAD`
   - pip install jupyter-repo2docker
   - pip list
 
 script:
-  - repo2docker scipy-binder --no-run
+  - repo2docker . --no-run

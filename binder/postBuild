@@ -8,7 +8,3 @@ jupyter labextension install jupyter-matplotlib
 
 # Install extension that supports Voilà preview pane.
 jupyter labextension install @jupyter-voila/jupyterlab-preview
-
-# Disable the default share-file extension and register our custom one.
-jupyter labextension disable @jupyterlab/filebrowser-extension:share-file
-jupyter labextension install jupyterhub-share-link-labextension

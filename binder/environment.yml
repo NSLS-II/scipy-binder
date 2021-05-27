@@ -10,8 +10,7 @@ dependencies:
   - chxtools
   - csxtools>=0.1.14
   - dask-image=0.2.0
-  # TODO: Bump dask-labextension to >=2 once extensions have been made compatibility updates
-  - dask-labextension=1.1.0
+  - dask-labextension
   - dask-ml=1.2.0
   - dask-xgboost
   - dask=2.9.1
@@ -35,18 +34,18 @@ dependencies:
   - netcdf4
   - nodejs
   - nomkl
-  - notebook<5.7.5
+  - notebook
   - nslsii
   - numba
   - numexpr
-  - numpy=1.17
-  - pandas=0.25.3
+  - numpy
+  - pandas
   - papermill
   - periodictable
   - pip
   - py-xgboost
   - py4xs
-  - pyarrow==0.15.1
+  - pyarrow
   - pyfai
   - pypdf2
   - pystackreg
@@ -58,7 +57,7 @@ dependencies:
   - sasview
   - scikit-learn
   - scikit-learn
-  - scikit-learn=0.22
+  - scikit-learn
   - seaborn
   - sixtools>=0.0.2
   - tomopy

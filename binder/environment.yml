@@ -21,8 +21,8 @@ dependencies:
   - h5py
   - hxntools
   - ipympl
-  # TODO: Bump jupyterlab to 2.x once extensions have been made compatibility updates
-  - jupyterlab=1.*
+  # TODO: Bump jupyterlab to 3.x once binder does.
+  - jupyterlab=2.*
   - line_profiler
   - lmfit>=0.9.9
   - matplotlib

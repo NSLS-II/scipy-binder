@@ -1,7 +1,6 @@
 #!/bin/bash
 
-# TODO: Unpin dask-labextension version once extensions have been made compatibility updates
-jupyter labextension install dask-labextension@1.1.0
+jupyter labextension install dask-labextension
 
 # Install extension that supports '%matplotlib widget'.
 jupyter labextension install @jupyter-widgets/jupyterlab-manager

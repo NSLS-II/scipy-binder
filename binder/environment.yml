@@ -20,7 +20,7 @@ dependencies:
   - h5py
   - hxntools
   - ipympl
-  - jupyterlab=3.0.7
+  - jupyterlab=3.*
   - line_profiler
   - lmfit>=0.9.9
   - matplotlib
@@ -59,7 +59,7 @@ dependencies:
   - seaborn
   - sixtools>=0.0.2
   - tomopy
-  - tornado=5
+  - tornado
   - voila
   - xarray
   # xpdan

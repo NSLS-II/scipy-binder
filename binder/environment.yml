@@ -13,7 +13,7 @@ dependencies:
   - dask-labextension
   - dask-ml
   - dask-xgboost
-  - dask=2.9.1
+  - dask
   - eiger-io
   - fabio
   - graphviz

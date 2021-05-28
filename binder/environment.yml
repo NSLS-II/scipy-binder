@@ -4,14 +4,14 @@ channels:
 dependencies:
   - amostra
   - area-detector-handlers
-  - bokeh=1.4.0
+  - bokeh
   - boto3
   - bottleneck
   - chxtools
   - csxtools>=0.1.14
-  - dask-image=0.2.0
+  - dask-image
   - dask-labextension
-  - dask-ml=1.2.0
+  - dask-ml
   - dask-xgboost
   - dask=2.9.1
   - eiger-io

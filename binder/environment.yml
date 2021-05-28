@@ -20,7 +20,7 @@ dependencies:
   - h5py
   - hxntools
   - ipympl
-  - jupyterlab=3.*
+  - jupyterlab=3.0.7
   - line_profiler
   - lmfit>=0.9.9
   - matplotlib

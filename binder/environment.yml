@@ -68,5 +68,5 @@ dependencies:
     # - edrixs
     - mimesis
     - pyzbar
-    - tiled[complete]>=0.1.0a13
+    - tiled[complete]>=0.1.0a14
     - git+https://github.com/bluesky/databroker.git@89b104221da8775d2e3ef3211c987190b5e5b09a#egg=databroker[complete]

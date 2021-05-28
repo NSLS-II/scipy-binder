@@ -20,8 +20,7 @@ dependencies:
   - h5py
   - hxntools
   - ipympl
-  # TODO: Bump jupyterlab to 3.x once binder does.
-  - jupyterlab=2.*
+  - jupyterlab=3.*
   - line_profiler
   - lmfit>=0.9.9
   - matplotlib

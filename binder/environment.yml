@@ -68,5 +68,5 @@ dependencies:
     # - edrixs
     - mimesis
     - pyzbar
-    - git+https://github.com/bluesky/tiled.git@f7e4490796388dafd2548b025b84f3d60ef7de11#egg=tiled[complete]
-    - git+https://github.com/bluesky/databroker.git@74bd539e6f627a9ea8ec0e835d953615ee94e4fb#egg=databroker[complete]
+    - git+https://github.com/bluesky/tiled.git@v0.1.0a15#egg=tiled[complete]
+    - git+https://github.com/bluesky/databroker.git@da8c8a65297137b51dc8206a614287a72950767a#egg=databroker[complete]

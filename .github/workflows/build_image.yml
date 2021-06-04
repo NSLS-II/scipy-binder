@@ -1,0 +1,14 @@
+name: Build Container Image (without pushing)
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: checkout files in repo
+      uses: actions/checkout@main
+
+    - name: update jupyter dependencies with repo2docker
+      uses: jupyterhub/repo2docker-action@6a93d1bf173f32cfd859130d5851aa8a7aad07cd  # master as of 2020-10-20
+      with:
+        NO_PUSH: true

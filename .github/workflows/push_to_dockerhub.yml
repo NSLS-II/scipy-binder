@@ -12,10 +12,10 @@ jobs:
       uses: actions/checkout@main
 
     - name: update jupyter dependencies with repo2docker
-      uses: NSLS-II/repo2docker-action@1e644202ebb90ec704543de23909569294ae2061  # adds support for --appendix
+      uses: NSLS-II/repo2docker-action@78661e0e5cf776f3c136c383599e9c57703e204d  # adds support for --appendix
       with:
         # Push built image to DockerHub for use by our JupyterHub deployments.
         DOCKER_USERNAME: nsls2damaservice
         DOCKER_PASSWORD: ${{ secrets.DOCKERHUB_ACCESS_TOKEN }}
         IMAGE_NAME: "nsls2/scipy-binder"
-        APPENDIX: "binder/appendix.txt"
+        APPENDIX_FILE: "binder/appendix.txt"

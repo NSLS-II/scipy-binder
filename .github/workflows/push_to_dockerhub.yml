@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@main
 
     - name: update jupyter dependencies with repo2docker
-      uses: NSLS-II/repo2docker-action@faa137afec89c2c26e2b2b6f3c18643030b85e13  # adds support for --appendix
+      uses: NSLS-II/repo2docker-action@c64bda966539ff36856055311be7d709605a8a97  # adds support for --appendix
       with:
         # Push built image to DockerHub for use by our JupyterHub deployments.
         DOCKER_USERNAME: nsls2damaservice

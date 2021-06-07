@@ -2,5 +2,4 @@ USER root
 # Enable user to edit software environment via a writeable tmpfs overlay
 # in Singularity.
 RUN chmod a+w -R /srv
-RUN chown root:root -R /srv
 USER ${NB_USER}

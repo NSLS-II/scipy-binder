@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@main
 
     - name: update jupyter dependencies with repo2docker
-      uses: NSLS-II/repo2docker-action@78661e0e5cf776f3c136c383599e9c57703e204d  # adds support for --appendix
+      uses: NSLS-II/repo2docker-action@faa137afec89c2c26e2b2b6f3c18643030b85e13  # adds support for --appendix
       with:
         NO_PUSH: true
         APPENDIX_FILE: "binder/appendix.txt"

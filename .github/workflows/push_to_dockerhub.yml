@@ -19,4 +19,3 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.DOCKERHUB_ACCESS_TOKEN }}
         IMAGE_NAME: "nsls2/scipy-binder"
         APPENDIX_FILE: "binder/appendix.txt"
-        NOTEBOOK_USER: root

@@ -12,5 +12,4 @@ jobs:
       uses: NSLS-II/repo2docker-action@c64bda966539ff36856055311be7d709605a8a97  # adds support for --appendix
       with:
         NO_PUSH: true
-        NOTEBOOK_USER: root
         APPENDIX_FILE: "binder/appendix.txt"

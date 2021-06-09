@@ -40,6 +40,7 @@ dependencies:
   - pandas
   - papermill
   - periodictable
+  - photutils
   - pip
   - py-xgboost
   - py4xs

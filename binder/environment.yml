@@ -10,7 +10,7 @@ dependencies:
   - chxtools
   - csxtools>=0.1.14
   - dask-image
-  - dask-labextension
+  # - dask-labextension  # front-end cannot connect, unsure why
   - dask-ml
   - dask-xgboost
   - dask

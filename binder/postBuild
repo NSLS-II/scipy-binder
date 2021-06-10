@@ -3,5 +3,4 @@
 pip install git+https://github.com/bluesky/tiled.git@v0.1.0a15#egg=tiled[complete]
 pip install git+https://github.com/bluesky/databroker.git@da8c8a65297137b51dc8206a614287a72950767a#egg=databroker[complete]
 
-mkdir /etc/conda
 cp binder/condarc /etc/conda/condarc

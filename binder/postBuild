@@ -1,4 +1,4 @@
 #!/bin/bash
 
 pip install git+https://github.com/bluesky/tiled.git@v0.1.0a15#egg=tiled[complete]
-pip install git+https://github.com/bluesky/databroker.git@da8c8a65297137b51dc8206a614287a72950767a#egg=databroker[complete]
+Pip install git+https://github.com/bluesky/databroker.git@53c84c0b596fecb1b9d759ed3b1acf0cbceb66b8#egg=databroker[complete]

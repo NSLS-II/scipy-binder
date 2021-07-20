@@ -1,4 +1,6 @@
 #!/bin/bash
 
-pip install git+https://github.com/bluesky/tiled.git@v0.1.0a24#egg=tiled[complete]
-pip install git+https://github.com/bluesky/databroker.git@v2.0.0a7#egg=databroker[complete]
+git clone https://github.com/bluesky/tiled.git@v0.1.0a24 /tmp/tiled
+git clone https://github.com/bluesky/databroker.git@v2.0.0a7 /tmp/databroker
+pip install '/tmp/tiled[complete]'
+pip install '/tmp/databroker[complete]'

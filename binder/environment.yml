@@ -65,6 +65,7 @@ dependencies:
   - voila
   - xarray
   # xpdan
+  - xray-vision
   - xraylarch>=0.9.45
   - pip:
     # - edrixs

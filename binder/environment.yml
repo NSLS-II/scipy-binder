@@ -59,6 +59,7 @@ dependencies:
   - scikit-learn
   - scikit-learn
   - seaborn
+  - sip
   - sixtools>=0.0.2
   - tomopy
   - tornado

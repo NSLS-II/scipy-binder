@@ -4,6 +4,7 @@ channels:
 dependencies:
   - amostra
   - area-detector-handlers
+  - blosc
   - bokeh
   - boto3
   - bottleneck

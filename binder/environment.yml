@@ -50,6 +50,7 @@ dependencies:
   - pyfai
   - pypdf2
   - pystackreg
+  - python-blosc
   - python-graphviz
   - python=3.7
   - pyxrf>=0.0.9

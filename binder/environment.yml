@@ -46,7 +46,7 @@ dependencies:
   - py-xgboost
   - py4xs
   - pyarrow
-  - pychx
+  - pychx >=4.0.11
   - pyfai
   - pypdf2
   - pystackreg

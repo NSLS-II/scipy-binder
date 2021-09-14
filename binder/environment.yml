@@ -47,7 +47,7 @@ dependencies:
   - py-xgboost
   - py4xs
   - pyarrow
-  - pychx >=4.0.11
+  - pychx >=4.1.0
   - pyfai
   - pypdf2
   - pystackreg
@@ -69,7 +69,7 @@ dependencies:
   - voila
   - xarray
   # xpdan
-  - xray-vision
+  - xray-vision >=0.0.10
   - xraylarch>=0.9.45
   - pip:
     # - edrixs

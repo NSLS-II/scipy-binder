@@ -17,6 +17,7 @@ dependencies:
   - dask-ml
   - dask-xgboost
   - dask
+  - edrixs
   - eiger-io
   - fabio
   - graphviz

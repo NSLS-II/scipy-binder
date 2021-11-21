@@ -22,6 +22,7 @@ dependencies:
   - fabio
   - graphviz
   - h5py
+  - hvplot
   - hxntools
   - ipympl
   - jupyterlab=3.*

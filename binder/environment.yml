@@ -27,6 +27,7 @@ dependencies:
   - ipympl
   - jupyterlab=3.*
   - line_profiler
+  - lixtools
   - lmfit>=0.9.9
   - matplotlib
   - memory_profiler

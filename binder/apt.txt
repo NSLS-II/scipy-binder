@@ -1,4 +1,5 @@
 attr  # used by code that converts to Singularity image
 emacs
+ffmpeg
 graphviz
 vim

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone --single-branch --branch v0.1.0a45 https://github.com/bluesky/tiled.git /tmp/tiled
-git clone --single-branch --branch v2.0.0a18 https://github.com/bluesky/databroker.git /tmp/databroker
+git clone --single-branch --branch v0.1.0a49 https://github.com/bluesky/tiled.git /tmp/tiled
+git clone --single-branch --branch v2.0.0a20 https://github.com/bluesky/databroker.git /tmp/databroker
 pip install '/tmp/tiled[complete]'
 pip install '/tmp/databroker[complete]'

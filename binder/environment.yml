@@ -51,7 +51,7 @@ dependencies:
   - py-xgboost
   - py4xs
   - pyarrow
-  - pychx >=4.1.0
+  - pychx >=4.1.1
   - pyfai
   - pypdf2
   - pystackreg
@@ -68,6 +68,7 @@ dependencies:
   - seaborn
   - sip
   - sixtools>=0.0.2
+  - pytables
   - tomopy
   - tornado
   - tzlocal <3  # tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole

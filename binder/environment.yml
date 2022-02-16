@@ -51,6 +51,7 @@ dependencies:
   - py-xgboost
   - py4xs
   - pyarrow
+  - pycentroids
   - pychx >=4.1.2
   - pyfai
   - pymongo <4

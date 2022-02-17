@@ -83,3 +83,4 @@ dependencies:
     # - edrixs
     - mimesis
     - pyzbar
+    - smi_analysis

@@ -3,3 +3,4 @@ emacs
 ffmpeg
 graphviz
 vim
+texlive-xelatex

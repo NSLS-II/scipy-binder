@@ -33,6 +33,7 @@ dependencies:
   - memory_profiler
   - mendeleev
   - modestimage
+  - nbclassic>=0.2.8
   - nbgitpuller
   - nbserverproxy
   - netcdf4

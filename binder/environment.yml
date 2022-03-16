@@ -85,3 +85,4 @@ dependencies:
     - mimesis
     - pyzbar
     - smi_analysis
+    - jupyter-server>=1.15.5

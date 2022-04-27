@@ -9,6 +9,6 @@ jobs:
       uses: actions/checkout@main
 
     - name: update jupyter dependencies with repo2docker
-      uses: jupyterhub/repo2docker-action@6a93d1bf173f32cfd859130d5851aa8a7aad07cd  # master as of 2020-10-20
+      uses: jupyterhub/repo2docker-action@e19285db868b7ebd44ff6b457ba624dec20f5734  # master as of 2022-04-25
       with:
         NO_PUSH: true

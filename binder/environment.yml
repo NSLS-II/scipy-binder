@@ -11,12 +11,12 @@ dependencies:
   - bottleneck
   - chxtools
   - csxtools>=0.1.14
+  - dask
   - dask-image
   - dask-jobqueue
   - dask-labextension
   - dask-ml
   - dask-xgboost
-  - dask
   - edrixs
   - eiger-io
   - fabio
@@ -58,6 +58,7 @@ dependencies:
   - pymongo <4
   - pypdf2
   - pystackreg
+  - pytables
   - python-blosc
   - python-graphviz
   - python=3.9
@@ -66,12 +67,10 @@ dependencies:
   - requests
   - sasview
   - scikit-learn
-  - scikit-learn
-  - scikit-learn
+  - scipy>=1.8
   - seaborn
   - sip
   - sixtools>=0.0.2
-  - pytables
   - tomopy
   - tornado
   - tzlocal <3  # tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole
@@ -82,7 +81,7 @@ dependencies:
   - xraylarch>=0.9.45
   - pip:
     # - edrixs
+    - jupyter-server>=1.15.5
     - mimesis
     - pyzbar
     - smi_analysis
-    - jupyter-server>=1.15.5

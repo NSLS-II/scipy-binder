@@ -68,7 +68,7 @@ dependencies:
   - requests
   - sasview
   - scikit-learn
-  - scipy>=1.8
+  - scipy
   - seaborn
   - sip
   - sixtools>=0.0.2

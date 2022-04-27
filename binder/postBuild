@@ -3,4 +3,3 @@
 # Install manually with pip until conda-forge package is ready.
 git clone --single-branch --branch v0.1.0a60 https://github.com/bluesky/tiled.git /tmp/tiled
 pip install '/tmp/tiled[complete]'
-pip install '/tmp/databroker[complete]'

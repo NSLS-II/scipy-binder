@@ -17,6 +17,7 @@ dependencies:
   - dask-labextension
   - dask-ml
   - dask-xgboost
+  - databroker>=2.0.0b2
   - edrixs
   - eiger-io
   - fabio

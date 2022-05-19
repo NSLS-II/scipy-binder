@@ -26,7 +26,7 @@ dependencies:
   - hvplot
   - hxntools
   - ipympl
-  - jupyterlab=3.3.*
+  - jupyterlab=3.2.*
   - line_profiler
   - lixtools
   - lmfit>=0.9.9

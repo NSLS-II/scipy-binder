@@ -5,6 +5,7 @@ dependencies:
   - amostra
   - area-detector-handlers
   - arvpyf
+  - atsas-pipelines
   - blosc
   - bokeh
   - boto3

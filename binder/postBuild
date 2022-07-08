@@ -1,5 +1,5 @@
 #!/bin/bash
 
 # Install manually with pip until conda-forge package is ready.
-git clone --single-branch --branch v0.1.0a61 https://github.com/bluesky/tiled.git /tmp/tiled
+git clone --single-branch --branch v0.1.0a65 https://github.com/bluesky/tiled.git /tmp/tiled
 pip install '/tmp/tiled[complete]'

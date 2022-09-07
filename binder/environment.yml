@@ -74,7 +74,7 @@ dependencies:
   - seaborn
   - sip
   - sixtools>=0.0.2
-  - tomopy
+  # tomopy  # causes solve to fail
   - tornado
   - tzlocal <3  # tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole
   - voila
@@ -88,3 +88,4 @@ dependencies:
     - mimesis
     - pyzbar
     - smi_analysis
+

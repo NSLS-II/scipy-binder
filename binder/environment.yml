@@ -1,6 +1,5 @@
 channels:
   - conda-forge
-  - nsls2forge
 dependencies:
   - amostra
   - area-detector-handlers
@@ -18,47 +17,45 @@ dependencies:
   - dask-labextension
   - dask-ml
   - dask-xgboost
-  - databroker>=2.0.0b2
-  - edrixs
+  - databroker>=2.0.0b8
   - eiger-io
   - fabio
   - graphviz
-  - h5py
+  - h5py>=3.6
   - hvplot
   - hxntools
   - ipympl
-  - jupyterhub=1.3.0  # match JupyterHub deployment version
+  - jupyterhub-singleuser=1.3.0  # match JupyterHub deployment version
   - jupyterlab=3.2.*
   - line_profiler
   - lixtools
   - lmfit>=0.9.9
-  - matplotlib
+  - matplotlib>=3.5
   - memory_profiler
   - mendeleev
   - modestimage
   - nbclassic>=0.2.8
   - nbgitpuller
   - nbserverproxy
-  - netcdf4
+    # - netcdf4  # jams up the solver, and unclear whether it is actually used
   - nodejs
-  - nomkl
   - notebook
   - nslsii
   - numba
   - numexpr
-  - numpy
+  - numpy>=1.22
   - pandas
   - papermill
   - periodictable
   - photutils
-  - pip
+  - pip  # mamba warns us to explicitly list this dependency
   - py-xgboost
   - py4xs
   - pyarrow
   - pycentroids
   - pychx >=4.1.2
   - pyfai
-  - pymongo <4
+  - pymongo
   - pypdf2
   - pystackreg
   - pytables
@@ -70,21 +67,19 @@ dependencies:
   - requests
   - sasview
   - scikit-learn
-  - scipy
+  - scipy>=1.9
   - seaborn
   - sip
   - sixtools>=0.0.2
-  - tomopy
+  - tiled>=0.1.0a70
   - tornado
   - tzlocal <3  # tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole
   - voila
   - xarray
-  # xpdan
   - xray-vision >=0.0.10
   - xraylarch>=0.9.45
   - pip:
-    # - edrixs
-    - jupyter-server>=1.15.5
     - mimesis
     - pyzbar
     - smi_analysis
+  

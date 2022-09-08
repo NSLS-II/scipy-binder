@@ -19,11 +19,10 @@ dependencies:
   - dask-ml
   - dask-xgboost
   - databroker>=2.0.0b2
-  - edrixs
   - eiger-io
   - fabio
   - graphviz
-  - h5py
+  - h5py>=3.6
   - hvplot
   - hxntools
   - ipympl
@@ -32,61 +31,55 @@ dependencies:
   - line_profiler
   - lixtools
   - lmfit>=0.9.9
-  - matplotlib
+  - matplotlib>=3.5
   - memory_profiler
   - mendeleev
   - modestimage
   - nbclassic>=0.2.8
   - nbgitpuller
   - nbserverproxy
-  - netcdf4
+    # - netcdf4  # jams up the solver, and unclear whether it is actually used
   - nodejs
-  - nomkl
   - notebook
   - nslsii
   - numba
   - numexpr
-  - numpy
+  - numpy>=1.22
   - pandas
   - papermill
   - periodictable
   - photutils
-  - pip
+  - pip  # mamba warns us to explicitly list this dependency
   - py-xgboost
   - py4xs
   - pyarrow
   - pycentroids
   - pychx >=4.1.2
   - pyfai
-  - pymongo <4
+  - pymongo
   - pypdf2
   - pystackreg
   - pytables
   - python-blosc
   - python-graphviz
-    # - python=3.9  # might be OK, left off out of caution
+  - python=3.9
   - pyxrf>=0.0.9
   - reportlab
   - requests
   - sasview
   - scikit-learn
-  - scipy
+  - scipy>=1.9
   - seaborn
-  # all above OK
   - sip
   - sixtools>=0.0.2
-  # tomopy  # causes solve to fail
   - tornado
   - tzlocal <3  # tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole
   - voila
   - xarray
-  # xpdan
   - xray-vision >=0.0.10
   - xraylarch>=0.9.45
-    #   - pip:
-    #     # - edrixs
-    #     - jupyter-server>=1.15.5
-    #     - mimesis
-    #     - pyzbar
-    #     - smi_analysis
-    # 
+  - pip:
+    - mimesis
+    - pyzbar
+    - smi_analysis
+  

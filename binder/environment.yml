@@ -1,6 +1,5 @@
 channels:
   - conda-forge
-  - nsls2forge
 dependencies:
   - amostra
   - area-detector-handlers

@@ -69,8 +69,10 @@ dependencies:
   - scikit-learn
   - scipy>=1.9
   - seaborn
+  - shadow3
   - sip
   - sixtools>=0.0.2
+  - srwpy
   - tiled>=0.1.0a70
   - tornado
   - tzlocal <3  # tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole

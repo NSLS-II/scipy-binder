@@ -74,7 +74,7 @@ dependencies:
   - sip
   - sixtools>=0.0.2
   - srwpy
-  - tiled>=0.1.0a73
+  - tiled>=0.1.0a74
   - tornado
   - tzlocal <3  # tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole
   - voila

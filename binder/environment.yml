@@ -18,7 +18,7 @@ dependencies:
   - dask-ml
   - dask-xgboost
   - databroker>=2.0.0b10
-  - edrixs
+  - edrixs>=0.08
   - eiger-io
   - fabio
   - graphviz
@@ -85,4 +85,3 @@ dependencies:
     - mimesis
     - pyzbar
     - smi_analysis
-  

@@ -45,6 +45,7 @@ dependencies:
   - numba
   - numexpr
   - numpy>=1.22
+  - openmpi>=4.1.4
   - pandas
   - papermill
   - periodictable

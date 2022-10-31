@@ -18,7 +18,7 @@ dependencies:
   - dask-ml
   - dask-xgboost
   - databroker>=2.0.0b10
-  - edrixs>=0.08
+  - edrixs>=0.0.8
   - eiger-io
   - fabio
   - graphviz

@@ -39,7 +39,7 @@ dependencies:
   - nbgitpuller
   - nbserverproxy
     # - netcdf4  # jams up the solver, and unclear whether it is actually used
-  - nbconvert
+  - nbconvert-webpdf
   - nodejs
   - notebook
   - nslsii

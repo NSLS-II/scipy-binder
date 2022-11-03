@@ -39,6 +39,7 @@ dependencies:
   - nbgitpuller
   - nbserverproxy
     # - netcdf4  # jams up the solver, and unclear whether it is actually used
+  - nbconvert
   - nodejs
   - notebook
   - nslsii
@@ -85,4 +86,3 @@ dependencies:
     - mimesis
     - pyzbar
     - smi_analysis
-  

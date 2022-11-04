@@ -1,6 +1,12 @@
 attr  # used by code that converts to Singularity image
+build-essential
+cm-super
+dvipng
 emacs
 ffmpeg
 graphviz
+pandoc
 vim
 texlive-xetex
+texlive-fonts-recommended
+texlive-plain-generic

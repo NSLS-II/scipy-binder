@@ -18,7 +18,7 @@ dependencies:
   - dask-ml
   - dask-xgboost
   - databroker>=2.0.0b10
-  - edrixs
+  - edrixs>=0.0.8
   - eiger-io
   - fabio
   - graphviz
@@ -45,6 +45,7 @@ dependencies:
   - numba
   - numexpr
   - numpy>=1.22
+  - openmpi>=4.1.4
   - pandas
   - papermill
   - periodictable
@@ -85,4 +86,3 @@ dependencies:
     - mimesis
     - pyzbar
     - smi_analysis
-  

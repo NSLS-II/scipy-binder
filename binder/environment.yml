@@ -57,7 +57,7 @@ dependencies:
   - pyarrow
   - pycentroids
   - pychx >=4.1.2
-  - pyfai
+  # - pyfai
   - pymongo
   - pypdf2
   - pystackreg
@@ -86,4 +86,5 @@ dependencies:
   - pip:
     - mimesis
     - pyzbar
-    - smi_analysis
+    - git+https://github.com/silx-kit/pyFAI.git
+    - git+https://github.com/NSLS-II-SMI/smi-analysis.git

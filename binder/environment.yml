@@ -87,3 +87,4 @@ dependencies:
   - pip:
     - mimesis
     - pyzbar
+    - pyhyperscattering

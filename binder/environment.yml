@@ -21,6 +21,7 @@ dependencies:
   - edrixs>=0.0.8
   - eiger-io
   - fabio
+  - gpytorch
   - graphviz
   - h5py>=3.6
   - hvplot
@@ -65,6 +66,7 @@ dependencies:
   - python-blosc
   - python-graphviz
   - python=3.9
+  - pytorch
   - pyxrf>=0.0.9
   - reportlab
   - requests

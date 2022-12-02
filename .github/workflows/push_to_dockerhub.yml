@@ -12,7 +12,7 @@ jobs:
       uses: actions/checkout@main
 
     - name: update jupyter dependencies with repo2docker
-      uses: jupyterhub/repo2docker-action@228fc185e62d69d10e51099b6f06dfc2ac241f34  # master as of 2022-04-26
+      uses: jupyterhub/repo2docker-action@a3332630b6467f02ffc1015f433ee7f8339614dc  # master as of 2022-11-25
       with:
         # Push built image to DockerHub for use by our JupyterHub deployments.
         DOCKER_USERNAME: nsls2damaservice

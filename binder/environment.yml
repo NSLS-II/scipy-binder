@@ -86,6 +86,7 @@ dependencies:
   - xarray
   - xray-vision >=0.0.10
   - xraylarch>=0.9.45
+  - zarr
   - pip:
     - mimesis
     - pyzbar

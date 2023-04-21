@@ -91,3 +91,4 @@ dependencies:
     - mimesis
     - pyzbar
     - pyhyperscattering[all]
+    - digautoprofiler

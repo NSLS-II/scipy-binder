@@ -17,7 +17,7 @@ dependencies:
   - dask-labextension
   - dask-ml
   - dask-xgboost
-  - databroker>=2.0.0b13
+  - databroker>=2.0.0b23
   - edrixs>=0.0.8
   - eiger-io
   - fabio
@@ -79,7 +79,7 @@ dependencies:
   - sixtools>=0.0.2
   - smi-analysis>=0.2.0
   - srwpy
-  - tiled>=0.1.0a80
+  - tiled>=0.1.0a92
   - tornado
   - tzlocal <3  # tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole
   - voila

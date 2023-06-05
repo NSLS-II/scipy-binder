@@ -74,6 +74,7 @@ dependencies:
   - requests
   - sasview
   - scikit-learn
+  - scipp
   - scipy>=1.9
   - seaborn
   - shadow3

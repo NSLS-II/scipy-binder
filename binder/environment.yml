@@ -8,6 +8,7 @@ dependencies:
   - blosc
   - bokeh
   - boto3
+  - botorch
   - bottleneck
   - chxtools
   - csxtools>=0.1.14

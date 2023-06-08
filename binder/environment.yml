@@ -37,7 +37,7 @@ dependencies:
   - matplotlib>=3.5
   - memory_profiler
   - mendeleev
-  - modestimage
+  - modestimage  # change to force rebuild to get new build
   - nbclassic>=0.2.8
   - nbgitpuller
   - nbserverproxy

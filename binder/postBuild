@@ -4,4 +4,4 @@
 # environment, with one that points into /nsls2/conda/ which is expected
 # to be mounted in when the container is run.
 mv /srv/conda/envs/notebook/share/jupyter/kernels/python3 /srv/conda/envs/notebook/share/jupyter/kernels/external_python3
-mv kernel.json /srv/conda/envs/notebook/share/jupyter/kernels/external_python3/kernel.json
+mv ./binder/kernel.json /srv/conda/envs/notebook/share/jupyter/kernels/external_python3/kernel.json

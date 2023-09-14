@@ -4,10 +4,12 @@ dependencies:
   - python=3.9
   - dask-labextension
   - jupyter-server-proxy
+  - jupyter-server=1.23.6  # known working with old jupyterhub-singleuser
   - jupyterhub-singleuser=1.3.0  # match JupyterHub deployment version
   - jupyterlab-h5web
-  - nbgitpuller
+  - jupyterlab=3.2.9
   - nbconvert-webpdf
+  - nbgitpuller
   - nodejs
   - notebook<7  # pinned for compat with jupyterhub-singleuser 1.3
   - pip  # mamba warns us to explicitly list this dependency

@@ -9,6 +9,6 @@ dependencies:
   - nbgitpuller
   - nbconvert-webpdf
   - nodejs
-  - notebook
+  - notebook<7  # pinned for compat with jupyterhub-singleuser 1.3
   - pip  # mamba warns us to explicitly list this dependency
   - voila

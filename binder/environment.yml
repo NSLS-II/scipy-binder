@@ -1,94 +1,94 @@
 channels:
   - conda-forge
 dependencies:
-  - amostra
-  - area-detector-handlers
-  - arvpyf
-  - atsas-pipelines
-  - blosc
-  - bokeh
-  - boto3
-  - botorch
-  - bottleneck
-  - chxtools
-  - csxtools>=0.1.14
-  - dask
-  - dask-image
-  - dask-jobqueue
-  - dask-labextension
-  - dask-ml
-  - dask-xgboost
-  - databroker>=2.0.0b23
-  - edrixs>=0.0.8
-  - eiger-io
-  - fabio
-  - gpytorch
-  - graphviz
-  - h5py>=3.6
-  - hvplot
-  - hxntools
-  - ipympl
-  - jupyterhub-singleuser=1.3.0  # match JupyterHub deployment version
-  - jupyterlab=3.2.*
-  - jupyterlab-h5web
-  - line_profiler
-  - lixtools>=2023.1.23.0
-  - lmfit>=0.9.9
-  - matplotlib>=3.5
-  - memory_profiler
-  - mendeleev
-  - modestimage  # change to force rebuild to get new build
-  - nbclassic>=0.2.8
-  - nbgitpuller
-  - nbserverproxy
+  - amostra  # pinnned down
+  - area-detector-handlers  # pinned up
+  - arvpyf  # same
+  - atsas-pipelines  # missing
+  - blosc  # secondary
+  - bokeh  # missing
+  - boto3  # same
+  - botorch  # same
+  - bottleneck  # missing
+  - chxtools  # same
+  - csxtools>=0.1.14  # pinned further up
+  - dask  # same
+  - dask-image  # missing
+  - dask-jobqueue  # missing
+  - dask-labextension  # SERVER
+  - dask-ml  # missing
+  - dask-xgboost  # missing
+  - databroker>=2.0.0b23  # pinned further up
+  - edrixs>=0.0.8  # unpinned
+  - eiger-io  # same
+  - fabio  # same
+  - gpytorch  # same
+  - graphviz  # same
+  - h5py>=3.6  # pinned less strictly
+  - hvplot  # missing
+  - hxntools  # pinned up
+  - ipympl  # pinned up
+  - jupyterhub-singleuser=1.3.0  # SERVER match JupyterHub deployment version
+  - jupyterlab=3.2.*  # unpinned
+  - jupyterlab-h5web  # SERVER
+  - line_profiler   # missing
+  - lixtools>=2023.1.23.0  # unpinned
+  - lmfit>=0.9.9  # unpinned
+  - matplotlib>=3.5  # pinned higher
+  - memory_profiler  # same
+  - mendeleev  # same
+  - modestimage  # same
+  - nbclassic>=0.2.8  # SERVER
+  - nbgitpuller  # SERVER
+  - nbserverproxy  # SERVER
   # - netcdf4  # jams up the solver, and unclear whether it is actually used
-  - nbconvert-webpdf
-  - nodejs
-  - notebook
-  - nslsii
-  - numba
-  - numexpr
-  - numpy>=1.22
-  - openmpi>=4.1.4
-  - pandas
-  - papermill
-  - periodictable
-  - photutils
+  - nbconvert-webpdf  # SERVER
+  - nodejs  # same
+  - notebook  # SERVER
+  - nslsii  # pinned up
+  - numba  # secondary
+  - numexpr  # same
+  - numpy>=1.22  # pinned higher
+  - openmpi>=4.1.4  # missing
+  - pandas  # same
+  - papermill  # same
+  - periodictable  # same
+  - photutils  # same
   - pip  # mamba warns us to explicitly list this dependency
-  - py-xgboost
-  - py4xs>=2023.1.23.0
-  - pyarrow
-  - pycentroids
-  - pychx >=4.1.2
-  - pyfai
-  - pymongo
-  - pypdf2
-  - pystackreg
-  - pytables
-  - python-blosc
-  - python-graphviz
-  - python=3.9
-  - pytorch
-  - pyxrf>=0.0.9
-  - reportlab
-  - requests
-  - sasview
-  - scikit-learn
-  - scipy>=1.9
-  - seaborn
-  - shadow3
-  - sip
-  - sixtools>=0.0.2
-  - smi-analysis>=0.2.0
-  - srwpy
-  - tiled>=0.1.0a92
-  - tornado
-  - tzlocal <3  # tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole
-  - voila
-  - xarray
-  - xray-vision >=0.0.10
-  - xraylarch>=0.9.45
-  - zarr
+  - py-xgboost  # missing
+  - py4xs>=2023.1.23.0  # same
+  - pyarrow  # same
+  - pycentroids  # same
+  - pychx >=4.1.2  # same
+  - pyfai  # same
+  - pymongo  # pinned up
+  - pypdf2  # same
+  - pystackreg  # same
+  - pytables  # same
+  - python-blosc  # missing
+  - python-graphviz  # same
+  - python=3.9  # pinned higher (3.10)
+  - pytorch  # same
+  - pyxrf>=0.0.9  3 pinned higher
+  - reportlab  # same
+  - requests  # same
+  - sasview  # removed, unsupported on pyqt>=5.15
+  - scikit-learn  # same
+  - scipy>=1.9  # same
+  - seaborn  # missing
+  - shadow3  # missing
+  - sip  # missing
+  - sixtools>=0.0.2  # unpinned
+  - smi-analysis>=0.2.0  # unpinned
+  - srwpy   # missing
+  - tiled>=0.1.0a92  # pinned higher
+  - tornado  # same
+  - tzlocal <3  # banned 3.0 only; tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole
+  - voila  # SERVER
+  - xarray  # secondary
+  - xray-vision >=0.0.10  # pinned higher
+  - xraylarch>=0.9.45  # pinned higher
+  - zarr  # secondary
   - pip:
     - mimesis
     - pyzbar

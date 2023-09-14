@@ -1,4 +1,3 @@
 #!/bin/bash
 
-MPLBACKEND=Agg python -c "import matplotlib.pyplot"  # Build font cache.
-
+python -m ipykernel install --name python3-custom --display-name "Python 3 (custom)"

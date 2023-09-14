@@ -1,11 +1,9 @@
 # Scientific Python Binder for NSLS-II
 
-Run this on Binder (free public cloud resources) using this link:
+This defines the container image run on https://jupyter.nsls2.bnl.gov.
 
-[![Binder](http://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/NSLS-II/scipy-binder/main)
-
-Or run it on the NSLS-II JupyterHub at SDCC by visiting
-
-https://jupyter.sdcc.bnl.gov/jupyterhub/nsls/
-
-and choosing "scientific-python".
+Note that this only includes the Jupyter _server_ environment, which includes
+various Jupyter server extensions. It does not include the Jupyter _kernels_
+where the user code is executed. Those are managed separately in
+[nsls2-conda-envs/nsls2-collection-tiled](https://github.com/nsls2-conda-envs/nsls2-collection-tiled)
+and mounted into the container under `/nsls2/conda/`.

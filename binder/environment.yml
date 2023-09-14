@@ -1,95 +1,13 @@
 channels:
   - conda-forge
 dependencies:
-  - amostra  # pinnned down
-  - area-detector-handlers  # pinned up
-  - arvpyf  # same
-  - atsas-pipelines  # missing
-  - blosc  # secondary
-  - bokeh  # missing
-  - boto3  # same
-  - botorch  # same
-  - bottleneck  # missing
-  - chxtools  # same
-  - csxtools>=0.1.14  # pinned further up
-  - dask  # same
-  - dask-image  # missing
-  - dask-jobqueue  # missing
-  - dask-labextension  # SERVER
-  - dask-ml  # missing
-  - dask-xgboost  # missing
-  - databroker>=2.0.0b23  # pinned further up
-  - edrixs>=0.0.8  # unpinned
-  - eiger-io  # same
-  - fabio  # same
-  - gpytorch  # same
-  - graphviz  # same
-  - h5py>=3.6  # pinned less strictly
-  - hvplot  # missing
-  - hxntools  # pinned up
-  - ipympl  # pinned up
-  - jupyterhub-singleuser=1.3.0  # SERVER match JupyterHub deployment version
-  - jupyterlab=3.2.*  # unpinned
-  - jupyterlab-h5web  # SERVER
-  - line_profiler   # missing
-  - lixtools>=2023.1.23.0  # unpinned
-  - lmfit>=0.9.9  # unpinned
-  - matplotlib>=3.5  # pinned higher
-  - memory_profiler  # same
-  - mendeleev  # same
-  - modestimage  # same
-  - nbclassic>=0.2.8  # SERVER
-  - nbgitpuller  # SERVER
-  - nbserverproxy  # SERVER
-  # - netcdf4  # jams up the solver, and unclear whether it is actually used
-  - nbconvert-webpdf  # SERVER
-  - nodejs  # same
-  - notebook  # SERVER
-  - nslsii  # pinned up
-  - numba  # secondary
-  - numexpr  # same
-  - numpy>=1.22  # pinned higher
-  - openmpi>=4.1.4  # missing
-  - pandas  # same
-  - papermill  # same
-  - periodictable  # same
-  - photutils  # same
+  - dask-labextension
+  - jupyterhub-singleuser=1.3.0  # match JupyterHub deployment version
+  - jupyterlab-h5web
+  - nbgitpuller
+  - nbserverproxy
+  - nbconvert-webpdf
+  - nodejs
+  - notebook
   - pip  # mamba warns us to explicitly list this dependency
-  - py-xgboost  # missing
-  - py4xs>=2023.1.23.0  # same
-  - pyarrow  # same
-  - pycentroids  # same
-  - pychx >=4.1.2  # same
-  - pyfai  # same
-  - pymongo  # pinned up
-  - pypdf2  # same
-  - pystackreg  # same
-  - pytables  # same
-  - python-blosc  # missing
-  - python-graphviz  # same
-  - python=3.9  # pinned higher (3.10)
-  - pytorch  # same
-  - pyxrf>=0.0.9  3 pinned higher
-  - reportlab  # same
-  - requests  # same
-  - sasview  # removed, unsupported on pyqt>=5.15
-  - scikit-learn  # same
-  - scipy>=1.9  # same
-  - seaborn  # missing
-  - shadow3  # missing
-  - sip  # missing
-  - sixtools>=0.0.2  # unpinned
-  - smi-analysis>=0.2.0  # unpinned
-  - srwpy   # missing
-  - tiled>=0.1.0a92  # pinned higher
-  - tornado  # same
-  - tzlocal <3  # banned 3.0 only; tzlocal 3 broke API on Python 3.7 and the fix turned into a rabbithole
-  - voila  # SERVER
-  - xarray  # secondary
-  - xray-vision >=0.0.10  # pinned higher
-  - xraylarch>=0.9.45  # pinned higher
-  - zarr  # secondary
-  - pip:
-    - mimesis
-    - pyzbar
-    - pyhyperscattering[all]
+  - voila

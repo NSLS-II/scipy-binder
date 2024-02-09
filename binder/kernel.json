@@ -1,6 +1,6 @@
 {
  "argv": [
-  "/nsls2/conda/envs/2024-1.0-py310-tiled/bin/python",
+  "/nsls2/conda/envs/2024-1.0-py311-tiled-rc1/bin/python",
   "-m",
   "ipykernel_launcher",
   "-f",

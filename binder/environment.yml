@@ -3,6 +3,7 @@ channels:
 dependencies:
   - python=3.9
   - dask-labextension
+  - ipympl  # needed for jupyter-matplotlib JS side
   - jupyter-server-proxy
   - jupyter_server=1.23.6  # known working with old jupyterhub-singleuser
   - jupyterhub-singleuser=1.3.0  # match JupyterHub deployment version
